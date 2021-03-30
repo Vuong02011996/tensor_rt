@@ -10,3 +10,5 @@
     sudo cp -r libcublas.so.10 /usr/local/cuda/lib64
    ```
 2.  ERROR: coreReadArchive.cpp (41) - Serialization Error in verifyHeader: 0 (Version tag does not match. Note: Current Version: 96, Serialized Engine Version: 87)
+
+    ```Not match version tensor RT with cuda; cuda 10.1 and Tensor RT 7.2.3.4 not match. ```
